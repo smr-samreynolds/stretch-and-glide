@@ -1,0 +1,147 @@
+/* style elements */
+/* background/font colour - #082429 */
+/* purple - #A143FF */
+/* green - #9AF556 */
+/* font-family:  "Oswald"*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+}
+
+/* Temporary styles for structural html - remove when finished */
+* {
+  /* padding: 0.5rem; */
+  /* border: 2px solid rgb(225, 225, 225); */
+}
+
+html { border: none;}
+
+body { border: none;}
+
+/* REUSEABLE UTILITY CLASSES */
+/* Padding */
+.padded {padding: 5%;}
+.padded-05 { padding: 0.5rem;}
+.padded-1 { padding: 1rem;}
+.padded-2 { padding: 2rem;}
+
+/* Container height */
+.tall-50 {  min-height: 50vh;}
+.tall-60 {  min-height: 60vh;}
+.tall-70 {  min-height: 70vh;}
+.tall-80 {  min-height: 80vh;}
+.tall-90 {  min-height: 90vh;}
+.tall-100 {  min-height: 100vh;}
+
+/* Image styles */
+.bg-image {
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-ocean { background-image: url("/images/ocean.jpg");}
+.bg-yoga { background-image: url("/images/beach-yoga.jpg");}
+.bg-longboarder { background-image: url("images/longboarder.jpg");}
+.bg-surfer { background-image: url("/images/surfer-ocean.jpg");}
+
+
+/* icon styles */
+.fas {
+  display: block;
+  text-align: center;
+  /* margin-bottom: 1rem; */
+  font-size: 3rem;
+  color:#9AF556;
+}
+
+/* dark background */
+.bg-dark { 
+  background-color: #082429;
+}
+
+/* typography styles */
+
+/* Text size */
+.small-text {   font-size: 2rem;}
+.medium-text {  font-size: 3rem;  line-height: 1.1;}
+.large-text {  font-size: 4.5rem;}
+.extraLarge-text { font-size: 9rem;}
+
+/* Font weight */
+.font-weight-extraLight {   font-weight: 200;}
+.font-weight-normal {  font-weight: 400;}
+.font-weight-semiBold {  font-weight: 600;}
+.font-weight-extraBold {  font-weight: 800;}
+
+/* Text align */
+.text-left {  text-align: left;}
+.text-center {  text-align: center;}
+.text-right {  text-align: right;}
+
+.featured-text {  color: #9AF556;}
+.alternative-text { color: #A143FF;}
+.quote-text {color:#082429;}
+p {
+  color: #082429;
+  font-weight: lighter;
+  font-size: 1.5rem;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+h1 {
+  color: #fff;
+  font-size: 3.5rem
+}
+
+h2, h3 {
+    color: #A143FF;
+}
+
+h4 {
+  color: #A143FF;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 3rem;
+}
+
+
+.features p {
+  color:#9AF556;
+}
+
+a {
+  text-decoration: none;
+  border-bottom: 1px solid;
+  transition: 0.5s;
+}
+
+a:hover {
+  color: #9AF556;
+}
+
+footer p, a {
+  color: #A143FF;
+}
+
+.quote-icon {
+  font-size: 6rem;
+  display: inline-block;
+  color: #9AF556;
+  line-height: 1;
+}
+
+/* header styles */
+header { 
+  background-image:  url('/images/ocean.jpg'); 
+  background-size: cover;
+  background-position: 10% 10%; 
+}
